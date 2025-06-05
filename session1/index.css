@@ -1,0 +1,12 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: green;
+    font-size: 15px;
+    /* padding: 20px; */
+    margin: 30px;
+}
+h1 {
+    font-size: 16px;
+    color: brown;
+}

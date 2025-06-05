@@ -1,0 +1,50 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: red;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.container > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+#topRow {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: blue;
+  padding: 10px;
+}
+
+#topRow > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.thirdContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: purple;
+  padding: 10px;
+}
+
+.thirdContainer > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+.containerr {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: red;
+  padding: 10px;
+}
+
+.containerr > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#topRow{
+  display: grid;
+  grid-template-columns: auto;
+  background-color: blue;
+  padding: 10px;
+}
+
+#topRow > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.thirdContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: purple;
+  padding: 10px;
+}
+
+.thirdContainer > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
